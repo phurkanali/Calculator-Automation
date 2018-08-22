@@ -12,7 +12,6 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Dependency Version Quick View -->
 		<cucumber.reports.version>1.0.5</cucumber.reports.version>
 		<cucumber.version>1.2.4</cucumber.version>

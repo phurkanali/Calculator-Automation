@@ -21,7 +21,9 @@
 		<junit.version>4.12</junit.version>
 		<selenium.version>3.4.0</selenium.version>
 		<testng.version>6.11</testng.version>
-		<browser>Chrome</browser>
+		<winium.driver.version>0.1.0-1</winium.driver.version>
+		<winium.element.version>0.2.0-1</winium.element.version>
+		<applicationPath>C:\Windows\System32\calc.exe</applicationPath>
 	</properties>
 
 	<build>
@@ -34,7 +36,7 @@
 					<parallel>methhods</parallel>
 					<threadCount>10</threadCount>
 					<systemPropertyVariables>
-						<browser>${browser}</browser>
+						<applicationPath>${applicationPath}</applicationPath>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
@@ -42,6 +44,26 @@
 	</build>
 
 	<dependencies>
+		<!-- Common -->
+		<dependency>
+			<groupId>common.automation</groupId>
+			<artifactId>common.automation</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- Winium -->
+		<dependency>
+			<groupId>com.github.2gis.winium</groupId>
+			<artifactId>winium-webdriver</artifactId>
+			<version>${winium.driver.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.github.2gis.winium</groupId>
+			<artifactId>winium-elements-desktop</artifactId>
+			<version>${winium.element.version}</version>
+		</dependency>
+
 		<!-- Selenium -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>

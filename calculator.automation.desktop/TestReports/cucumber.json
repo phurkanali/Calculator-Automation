@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Make a simple addition sum on the calculator",
+        "description": "",
+        "id": "calculator;make-a-simple-addition-sum-on-the-calculator",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 248684884,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the calculator application",
+            "match": {
+              "location": "CalculatorSteps.iRunTheTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20569876,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:96)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:71)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat utilities.elements.common.Element.waitUntilElementToBeClickable(Element.java:112)\r\n\tat utilities.elements.common.Element.getWebElement(Element.java:93)\r\n\tat utilities.elements.common.Element.click(Element.java:68)\r\n\tat stepdefinitions.CalculatorSteps.iInputTwoNumbersToAdd(CalculatorSteps.java:19)\r\n\tat ✽.When I input two numbers to add(Calculator.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I input two numbers to add",
+            "match": {
+              "location": "CalculatorSteps.iInputTwoNumbersToAdd()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "The numbers will be added together",
+            "match": {
+              "location": "CalculatorSteps.theNumbersWillBeAddedTogether()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SimpleAddition"
+          }
+        ]
+      }
+    ],
+    "name": "Calculator",
+    "description": "",
+    "id": "calculator",
+    "keyword": "Feature",
+    "uri": "Calculator.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Calculator"
+      }
+    ]
+  }
+]

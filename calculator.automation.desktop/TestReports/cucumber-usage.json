@@ -1,0 +1,20 @@
+[
+  {
+    "source": "^I am on the calculator application$",
+    "steps": [
+      {
+        "name": "I am on the calculator application",
+        "aggregatedDurations": {
+          "average": 0.248684884,
+          "median": 0.248684884
+        },
+        "durations": [
+          {
+            "duration": 0.248684884,
+            "location": "Calculator.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

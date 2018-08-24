@@ -5,13 +5,49 @@
       {
         "name": "I am on the calculator application",
         "aggregatedDurations": {
-          "average": 0.248684884,
-          "median": 0.248684884
+          "average": 0.1521983,
+          "median": 0.1521983
         },
         "durations": [
           {
-            "duration": 0.248684884,
+            "duration": 0.1521983,
             "location": "Calculator.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I input two numbers to add$",
+    "steps": [
+      {
+        "name": "I input two numbers to add",
+        "aggregatedDurations": {
+          "average": 3.963778581,
+          "median": 3.963778581
+        },
+        "durations": [
+          {
+            "duration": 3.963778581,
+            "location": "Calculator.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^The numbers will be added together",
+    "steps": [
+      {
+        "name": "The numbers will be added together",
+        "aggregatedDurations": {
+          "average": 0.000123092,
+          "median": 0.000123092
+        },
+        "durations": [
+          {
+            "duration": 0.000123092,
+            "location": "Calculator.feature:9"
           }
         ]
       }

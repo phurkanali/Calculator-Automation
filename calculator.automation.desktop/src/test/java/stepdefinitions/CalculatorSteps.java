@@ -25,6 +25,6 @@ public class CalculatorSteps
 	@Then("^The numbers will be added together")
 	public void theNumbersWillBeAddedTogether()
 	{
-		System.out.println("");
+		System.out.println("Finished");
 	}
 }

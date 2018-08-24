@@ -2,7 +2,8 @@ package application.pages;
 
 import org.openqa.selenium.By;
 
-import utilities.elements.Button;
+import utilities.elements.winium.Button;
+
 
 public class CalculatorPage extends Page
 {
@@ -18,9 +19,9 @@ public class CalculatorPage extends Page
 
 	private void buildPage()
 	{
-		equals = new Button(By.name("equalButton"), "Equals", name);
-		plus = new Button(By.name("plusButton"), "Plus", name);
-		two = new Button(By.name("num2Button"), "Two", name);		
+		equals = new Button(By.id("equalButton"), "Equals", name);
+		plus = new Button(By.id("plusButton"), "Plus", name);
+		two = new Button(By.id("num2Button"), "Two", name);	
 	}
 
 }

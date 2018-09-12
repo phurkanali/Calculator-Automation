@@ -44,10 +44,10 @@ public class TestRunner extends AbstractTestNGCucumberTests
 		System.out.println("<---Scenario Tear Down--->");
 	}
 
-	@AfterTest
+	@AfterTest (alwaysRun = true)
 	public void testSuiteTearDown()
 	{
 		System.out.println("<---Test Suite Tear Down--->");
+		//WiniumDriverHelper.killDriver();
 	}
-
 }

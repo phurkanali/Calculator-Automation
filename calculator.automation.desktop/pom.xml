@@ -24,6 +24,9 @@
 		<winium.driver.version>0.1.0-1</winium.driver.version>
 		<winium.element.version>0.2.0-1</winium.element.version>
 		<applicationPath>C:\Windows\System32\calc.exe</applicationPath>
+		<machineIp>localhost</machineIp>
+		<machinePort>9999</machinePort>
+		<folderDirectory>C:\Users\john.dunn\Desktop\WiniumScreenshots</folderDirectory>
 	</properties>
 
 	<build>
@@ -37,6 +40,9 @@
 					<threadCount>10</threadCount>
 					<systemPropertyVariables>
 						<applicationPath>${applicationPath}</applicationPath>
+						<machineIp>${machineIp}</machineIp>
+						<machinePort>${machinePort}</machinePort>
+						<folderDirectory>${folderDirectory}</folderDirectory>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
@@ -57,7 +63,7 @@
 			<artifactId>winium-webdriver</artifactId>
 			<version>${winium.driver.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.github.2gis.winium</groupId>
 			<artifactId>winium-elements-desktop</artifactId>

@@ -3,16 +3,38 @@
     "line": 2,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 239763,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestRunner.scenarioSetup(Scenario)"
+            }
+          }
+        ],
         "line": 5,
         "name": "Make a simple addition sum on the calculator",
         "description": "",
         "id": "calculator;make-a-simple-addition-sum-on-the-calculator",
+        "after": [
+          {
+            "result": {
+              "duration": 159339,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestRunner.scenarioTearDown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 152198300,
+              "duration": 120281750,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3963778581,
+              "duration": 3107940523,
               "status": "passed"
             },
             "line": 8,
@@ -36,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 123092,
+              "duration": 168055535,
               "status": "passed"
             },
             "line": 9,

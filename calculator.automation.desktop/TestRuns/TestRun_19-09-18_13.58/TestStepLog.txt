@@ -1,0 +1,27 @@
+19/09/18 13:58:31 --- SUITE SETUP STARTED ---
+19/09/18 13:58:31 --- SUITE SETUP ENDED --- 
+
+19/09/18 13:58:33 --- SCENARIO SETUP STARTED --- : Make a simple addition sum on the calculator
+19/09/18 13:58:33 'Click' 'Two' on page 'calculator'
+19/09/18 13:58:33 'Click' 'Plus' on page 'calculator'
+19/09/18 13:58:34 'Click' 'Two' on page 'calculator'
+19/09/18 13:58:35 'Click' 'Equals' on page 'calculator'
+19/09/18 13:58:35 --- SCENARIO TEARDOWN STARTED --- : Make a simple addition sum on the calculator
+19/09/18 13:58:35 Scenario Time: 2.635 s
+19/09/18 13:58:35 Scenario result: PASS
+19/09/18 13:58:35 --- SCENARIO TEARDOWN ENDED --- : Make a simple addition sum on the calculator
+
+19/09/18 13:58:35 --- SCENARIO SETUP STARTED --- : 1 plus 1 equals 3
+19/09/18 13:58:35 'Click' 'One' on page 'calculator'
+19/09/18 13:58:36 'Click' 'Plus' on page 'calculator'
+19/09/18 13:58:36 'Click' 'One' on page 'calculator'
+19/09/18 13:58:37 'Click' 'Equals' on page 'calculator'
+19/09/18 13:58:38 --- SCENARIO TEARDOWN STARTED --- : 1 plus 1 equals 3
+19/09/18 13:58:38 Scenario Time: 2.327 s
+19/09/18 13:58:38 Scenario result: FAIL
+19/09/18 13:58:38 --- SCENARIO TEARDOWN ENDED --- : 1 plus 1 equals 3
+
+19/09/18 13:58:38 --- SUITE TEARDOWN STARTED ---
+19/09/18 13:58:38 Overall Test Time: 6.538 s
+19/09/18 13:58:38 --- SUITE TEARDOWN ENDED --- 
+

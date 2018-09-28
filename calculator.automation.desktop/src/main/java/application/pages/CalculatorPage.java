@@ -23,6 +23,9 @@ public class CalculatorPage extends Page
 	public Button eight;
 	public Button nine;
 	public Button zero;
+	public Button menu;
+	public Button scientific;
+	public Button pi;
 	public Text result;
 	
 	public CalculatorPage()
@@ -48,6 +51,8 @@ public class CalculatorPage extends Page
 		multiply.assertElementIsDisplayed();
 		divide.assertElementIsDisplayed();
 		equals.assertElementIsDisplayed();
+		menu.assertElementIsDisplayed();
+		scientific.assertElementIsDisplayed();
 	}
 
 	private void buildPage()
@@ -67,7 +72,11 @@ public class CalculatorPage extends Page
 		eight = new Button(By.id("num8Button"), "Eight", name);
 		nine = new Button(By.id("num9Button"), "Nine", name);
 		zero = new Button(By.id("num0Button"), "Zero", name);
-		result = new Text(By.id("CalculatorResults"), "result", name);
+		result = new Text(By.id("CalculatorResults"), "Result", name);
+		menu = new Button(By.id("Open Navigation"), "Open Navigation", name);
+		scientific = new Button(By.id("Scientific Calculator"), "Scientific Calculator", name);
+		pi = new Button(By.id("Pi"), "Pi", name);
+		
 	}
 
 }

@@ -89,10 +89,12 @@ public class TestRunner extends AbstractTestNGCucumberTests
 		if (scenario.isFailed())
 		{
 			String screenshotName = scenario.getName().toString();
+			
 			FailureScreenshot.captureWiniumScreenshot(screenshotName);
 		}
 		
 		TestLogger.logTestResult();
+		
 		TestLogger.logScenarioTeardownEnd();
 	}
 
@@ -104,6 +106,7 @@ public class TestRunner extends AbstractTestNGCucumberTests
 		TestLogger.logSuiteTeardownStart();
 		
 		System.out.println("Overall Test Time: " + TestLogger.getTestStopwatch());
+		
 		TestLogger.logTestTime();
 		
 		TestLogger.stopTestStopwatch();
